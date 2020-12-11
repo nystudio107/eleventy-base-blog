@@ -77,22 +77,22 @@ make npm install
 Then you can use any of the scripts in your `package.json` to run the project via Docker container:
 
 ```
-make npm build
+make npm run build
 ```
 
 Or build and host locally for local development
 ```
-make npm serve
+make npm run serve
 ```
 
 Or build automatically when a template changes:
 ```
-make npm watch
+make npm run watch
 ```
 
 Or in debug mode:
 ```
-make npm debug
+make npm run debug
 ```
 
 More detail on this Docker setup can be found in the [Running Node.js in Docker for local development](https://nystudio107.com/blog/run-your-node-js-apps-buildchains-via-docker) article.

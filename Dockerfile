@@ -3,6 +3,6 @@ FROM node:$TAG
 
 WORKDIR /app
 
-CMD ["build"]
+CMD ["run build"]
 
-ENTRYPOINT ["npm", "run"]
+ENTRYPOINT ["npm"]
